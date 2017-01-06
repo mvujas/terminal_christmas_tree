@@ -2,7 +2,6 @@
 let HALFTWIDTH=$(tput cols)/2
 let TERMINALWIDTH=$HALFTWIDTH*2
 let TERMINALHEIGHT=$(tput lines)
-TREE=
 i=0
 TREE=
 while [ $i -lt $TERMINALWIDTH ] 
@@ -62,7 +61,4 @@ done
 
 echo "$BASE"
 echo ${BASE//' '/_}
-
-echo N=$n H=$TERMINALHEIGHT W=$TERMINALWIDTH
-
 exit 0
