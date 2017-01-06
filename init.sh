@@ -1,5 +1,5 @@
 #!/bin/bash
-BASEDIR=$(pwd)
+export BASEDIR=~/$(dirname $0)
 
 echo >> ~/.bashrc
 echo "# Christmastree script" >> ~/.bashrc
