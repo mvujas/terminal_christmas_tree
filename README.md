@@ -1,6 +1,6 @@
 # Christmas tree for terminal
  
-  Make your terminal prettier during holidays
+  Script that makes your terminal prettier during holidays
   
 ### Included scripts
   * christmastree.sh - primary script that prints christmas tree into terminal
